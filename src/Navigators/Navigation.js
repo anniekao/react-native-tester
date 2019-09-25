@@ -1,7 +1,6 @@
 import { createAppContainer, createSwitchNavigator } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
 import AuthLoadingScreen from "../Components/AuthLoadingScreen";
-import HomeScreen from '../Components/HomeScreen';
 import SignOutScreen from '../Components/SignOutScreen';
 import SignInScreen from '../Components/SignInScreen';
 
