@@ -28,7 +28,7 @@ const BottomNav = createBottomTabNavigator(
 
         switch(routeName) {
           case 'Map':
-            iconName = 'location-arrow'
+            iconName = 'map'
             break;
           case 'Profile':
             iconName = 'ghost'

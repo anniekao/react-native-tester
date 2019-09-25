@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Content, Text, Button, Header, Left, Right, Body} from 'native-base';
+import { Container, Content, Text, Button, Header, Left, Right, Body } from 'native-base';
 
 const FeedScreen = ({navigation}) => {
    return (
@@ -7,7 +7,7 @@ const FeedScreen = ({navigation}) => {
       <Header style={{backgroundColor:'#f46036'}}>
         <Left style={{flex:1}}/>
         <Body style={{flex:1, alignItems:'center', justifyContent: "center"}}>
-          <Text style={{color:'#fdfffc', fontWeight:'bold'}}>My Feed</Text>
+          <Text style={{color:'#fdfffc', fontWeight:'bold', fontSize:20}}>My Feed</Text>
         </Body>
         <Right style={{flex:1}}/>
       </Header>

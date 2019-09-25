@@ -1,26 +1,21 @@
 import React from 'react';
-import { View, Text, Button, ImageBackground, Dimensions } from "react-native";
-import { Thumbnail } from 'native-base';
+import { View, Text, Button, ImageBackground } from "react-native";
+import { Thumbnail, Icon } from 'native-base';
 
 const ProfileScreen = ({navigation}) => {
   navigationOptions = {
     title: 'Profile'
   }
   return (
-    <View
-      style={{
-        flex: 1
-      }}
-    >
+    <View>
       <ImageBackground
         style={{
           height: "70%",
           width: "100%",
-          alignItems: "center",
+          alignItems:"center"
         }}
         source={require("../../assets/streetart-bg.jpg")}
       >
-       
         <Thumbnail
           style={{
             height: 150,
@@ -42,6 +37,7 @@ const ProfileScreen = ({navigation}) => {
         <Text style={{ backgroundColor: "black", color: "white" }}>
           Location: Springfield, IL
         </Text>
+        <Icon type="FontAwesome5" name="user-plus" style={{alignSelf:'flex-start'}}/>
       </ImageBackground>
     </View>
   );
